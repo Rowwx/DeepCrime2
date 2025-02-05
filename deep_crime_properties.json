@@ -1,0 +1,18 @@
+{
+    "subject_name": "cifar",
+    "subject_path": "test_models/cifar_conv_train.py",
+    "root": "/home/jovyan/BT_test/deepcrime2",
+    "mutations": [
+        "change_label",
+        "delete_training_data",
+        "unbalance_train_data",
+        "add_noise",
+        "change_batch_size",
+        "change_epochs",
+        "change_learning_rate",
+        "change_activation_function",
+        "change_weights_initialisation",
+        "change_optimisation_function"
+    ],
+    "mode": "train"
+}
