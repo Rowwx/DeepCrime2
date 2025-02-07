@@ -50,7 +50,7 @@ def mutate_model(msc): # msc = 'DC' or 'DPP' or 'DM' 18.01 juan
     prepare_model(file_path, save_path_prepared, save_path_trained, mutation_types)
 
 
-    mutants_path = os.path.join(const.save_paths["mutated"], model_name)
+    mutants_path = os.path.join("mutated_models_"+msc, model_name) # mutated_models_"+msc for separate folders
     results_path = os.path.join(mutants_path, "results")
     stats_path = os.path.join(results_path, "stats")
 
